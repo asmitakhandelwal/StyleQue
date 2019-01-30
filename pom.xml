@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.styleque</groupId>
+  <artifactId>StyleQue</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>StyleQue Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+<dependencies>
+   
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>4.3.18.RELEASE</version>
+</dependency>
+<dependency> <groupId>com.stylequebackend</groupId>
+  <artifactId>stylequebackend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+  <!-- Spring Security Core 4 dependency -->
+
+
+<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
+
+
+
+<dependency>
+
+<groupId>org.springframework.security</groupId>
+
+<artifactId>spring-security-core</artifactId>
+
+<version>4.2.3.RELEASE</version>
+
+</dependency>
+
+<!-- Spring Security Web 4 Dependency -->
+
+
+<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
+<dependency>
+
+<groupId>org.springframework.security</groupId>
+
+<artifactId>spring-security-web</artifactId>
+
+<version>4.2.3.RELEASE</version>
+
+</dependency>
+
+<!-- Spring Security Config 4 Dependency -->
+
+
+<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-config -->
+<dependency>
+
+<groupId>org.springframework.security</groupId>
+
+<artifactId>spring-security-config</artifactId>
+
+<version>4.2.3.RELEASE</version>
+
+</dependency>
+<!-- taglibs dependency. version is important -->
+
+
+
+<dependency>
+
+<groupId>org.springframework.security</groupId>
+
+<artifactId>spring-security-taglibs</artifactId>
+
+<version>4.2.3.RELEASE</version>
+
+</dependency>
+  <dependency>
+    <groupId>jstl</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+</dependencies>
+  <build>
+    <finalName>StyleQue</finalName>
+  </build>
+</project>
